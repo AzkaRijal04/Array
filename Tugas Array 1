@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int umur[] = {18, 19, 40, 21, 22};
+int n, hasil=0;
+
+int main()
+{
+    for ( n=0 ; n<5 ; ++n )
+    {
+        hasil+= umur[n];
+        cout << " hasil ke - "<< n << " adalah : " << hasil << endl;
+    }
+    cout << endl << "jumlah seluruh umum :" << hasil << endl;
+    return 0;
+}
